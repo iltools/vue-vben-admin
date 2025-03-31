@@ -118,5 +118,8 @@
       "canvas",
       "node-gyp"
     ]
+  },
+  "dependencies": {
+    "wujie-vue3": "^1.0.26"
   }
 }

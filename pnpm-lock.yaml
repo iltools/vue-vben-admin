@@ -522,6 +522,10 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      wujie-vue3:
+        specifier: ^1.0.26
+        version: 1.0.26(vue@3.5.13(typescript@5.8.2))
     devDependencies:
       '@changesets/changelog-github':
         specifier: 'catalog:'
@@ -10305,6 +10309,14 @@ packages:
     resolution: {integrity: sha512-+QU2zd6OTD8XWIJCbffaiQeH9U73qIqafo1x6V1snCWYGJf6cVE0cDR4D8xRzcEnfI21IFrUPzPGtcPf8AC+Rw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
+  wujie-vue3@1.0.26:
+    resolution: {integrity: sha512-rHqA0JfR9pLk2Qf25IPVeoosNZ6tEyQKSX3elgmLYCvKq3LjGkcqPkDBShT3kZJOhFcfB8gHr/c1gpltD1O8TQ==}
+    peerDependencies:
+      vue: ^3.5.13
+
+  wujie@1.0.26:
+    resolution: {integrity: sha512-QIx0p8cyuDAeBoVn7FBEZJUyQH8tloQblShpDX2Py7WjFVpAupJDTmNSP3lHczJu1Rfy0wRy1mhF/dyDRBQsNw==}
+
   xdg-basedir@5.1.0:
     resolution: {integrity: sha512-GCPAHLvrIH13+c0SuacwvRYj2SxJXQ4kaVTT5xgL3kPrz56XxkF21IGhjSE1+W0aw7gpBWRGXLCPnPby6lSpmQ==}
     engines: {node: '>=12'}
@@ -19948,6 +19960,15 @@ snapshots:
     dependencies:
       imurmurhash: 0.1.4
       signal-exit: 4.1.0
+
+  wujie-vue3@1.0.26(vue@3.5.13(typescript@5.8.2)):
+    dependencies:
+      vue: 3.5.13(typescript@5.8.2)
+      wujie: 1.0.26
+
+  wujie@1.0.26:
+    dependencies:
+      '@babel/runtime': 7.26.9
 
   xdg-basedir@5.1.0: {}
 
