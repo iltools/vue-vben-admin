@@ -120,6 +120,7 @@
     ]
   },
   "dependencies": {
+    "micro-app": "^1.0.2",
     "wujie-vue3": "^1.0.26"
   }
 }

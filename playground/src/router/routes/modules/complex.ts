@@ -1,6 +1,6 @@
 import type { RouteRecordRaw } from 'vue-router';
 
-import { WujieSimple } from '#/layouts';
+import { WujieSimple, WujieVue3Main } from '#/layouts';
 import { $t } from '#/locales';
 
 const routes: RouteRecordRaw[] = [
@@ -37,6 +37,15 @@ const routes: RouteRecordRaw[] = [
                 meta: {
                   icon: 'devicon:tailwindcss',
                   title: '加载第三方网页',
+                },
+              },
+              {
+                name: 'MicroWujieVue3Main',
+                path: '/complex/micro/wujie/web-ele',
+                component: WujieVue3Main,
+                meta: {
+                  icon: 'devicon:tailwindcss',
+                  title: '加载web-ele',
                 },
               },
             ],
